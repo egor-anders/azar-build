@@ -36,7 +36,7 @@
         <div class="search__wrapper">
           <div class="search__cross"><img src="./assets/images/links/cross.svg" alt="" /></div>
           <div class="search__content">
-            <form action="" class="search__form">
+            <form class="search__form">
               <input type="text" class="search__input" placeholder="Искать..." />
               <button class="search__button" type="submit"><span></span></button>
             </form>
@@ -215,28 +215,28 @@
             <label for="feedback-name" class="feedback__label feedback__label--required">
               Ваше имя
               <input type="text" name="name" id="feedback-name" class="feedback__input" />
-              <div class="feedback__line"></div>
+              <span class="feedback__line"></span>
             </label>
             <label for="feedback-email" class="feedback__label feedback__label--required">
               Ваша почта
               <input type="email" name="feedback-email" id="feedback-email" class="feedback__input" />
-              <div class="feedback__line"></div>
+              <span class="feedback__line"></span>
             </label>
-            <label for="feedback-email" class="feedback__label feedback__label--required">
+            <label for="feedback-phone" class="feedback__label feedback__label--required">
               Номер телефона
               <input type="text" name="feedback-phone" id="feedback-phone" class="feedback__input" />
-              <div class="feedback__line"></div>
+              <span class="feedback__line"></span>
             </label>
             <label for="feedback-link" class="feedback__label">
               Ссылка на мессенджер
               <input type="text" name="feedback-link" id="feedback-link" class="feedback__input" />
-              <div class="feedback__line"></div>
+              <span class="feedback__line"></span>
             </label>
 
-            <label for="feedback-link" class="feedback__label feedback__label--mobile feedback__label--required">
+            <label for="feedback-project" class="feedback__label feedback__label--mobile feedback__label--required">
               Кратко о проекте
-              <textarea name="feedback-about" id="" rows="5" class="feedback__textarea"></textarea>
-              <div class="feedback__line"></div>
+              <textarea name="feedback-about" id="feedback-project" rows="5" class="feedback__textarea"></textarea>
+              <span class="feedback__line"></span>
             </label>
             <div class="feedback__mobile-tip">
               <p>
@@ -248,9 +248,9 @@
           </div>
           <div class="feedback__about">
             <h3 class="feedback__about-title">Кратко о проекте</h3>
-            <label for="feedback-link" class="feedback__label">
-              <textarea name="feedback-about" id="" rows="5" class="feedback__textarea"></textarea>
-              <div class="feedback__line"></div>
+            <label for="feedback-about" class="feedback__label">
+              <textarea name="feedback-about" id="feedback-about" rows="5" class="feedback__textarea"></textarea>
+              <span class="feedback__line"></span>
             </label>
             <div class="feedback__about-tip">
               <p>
