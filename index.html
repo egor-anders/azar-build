@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azar Stuff</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="assets/css/aos.css" rel="stylesheet" />
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/jquery-ui.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+      integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="./assets/js/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+
+  <body id="scrollbar">
+    <div class="body-wrapper">
+      <section class="search">
+        <div class="search__wrapper">
+          <div class="search__cross"><img src="./assets/images/links/cross.svg" alt="" /></div>
+          <div class="search__content">
+            <form action="" class="search__form">
+              <input type="text" class="search__input" placeholder="Искать..." />
+              <button class="search__button" type="submit"><span></span></button>
+            </form>
+            <div class="search__tags">
+              <div class="search__tag" data-aos="zoom-in" data-aos-delay="800">
+                <a href="/" class="search__tag-link">#Фирменные стили</a>
+              </div>
+              <div class="search__tag" data-aos="zoom-in" data-aos-delay="850">
+                <a href="/" class="search__tag-link">#Логотипы</a>
+              </div>
+              <div class="search__tag" data-aos="zoom-in" data-aos-delay="900">
+                <a href="/" class="search__tag-link">#Сайты</a>
+              </div>
+              <div class="search__tag" data-aos="zoom-in" data-aos-delay="950">
+                <a href="/" class="search__tag-link">#Приложения</a>
+              </div>
+              <div class="search__tag" data-aos="zoom-in" data-aos-delay="1000">
+                <a href="/" class="search__tag-link">#Оформления сообществ</a>
+              </div>
+              <div class="search__tag" data-aos="zoom-in" data-aos-delay="1050">
+                <a href="/" class="search__tag-link">#Печатная продукция</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="background-wrap">
+        <header class="header container">
+          <a href="/" class="header__title">
+            <img src="./assets/images/logo.svg" alt="" />
+          </a>
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="header__nav">
+            <a href="#" class="link link--active header__link">Студия</a>
+            <a href="#" class="link header__link">Задизайнено</a>
+            <a href="#" class="link header__link">Связаться</a>
+          </nav>
+          <div class="header__buttons">
+            <div class="header__search" id="searchButton">
+              <img src="./assets/icons/search.svg" alt="" />
+            </div>
+            <div id="sound-btn" class="sound-btn disabled">
+              <img src="./assets/icons/sound.svg" alt="" />
+              <img src="./assets/icons/sound-cross.svg" alt="" />
+            </div>
+          </div>
+        </header>
+
+        <section class="introduction container">
+          <div id="axis-x" class="axis-x">
+            <div id="arrow-x" class="arrow-x"></div>
+          </div>
+          <div id="axis-y" class="axis-y">
+            <div id="arrow-y" class="arrow-y"></div>
+          </div>
+
+          <h1 class="introduction__title">
+            <span>Д<i>обр</i>о <i>пож</i>аловать</span>
+            <span>на от<i>правн</i>ю то<i>чк</i>у</span>
+            <span>н<i>аш</i>его сайта</span>
+          </h1>
+
+          <div class="introduction__bottom">
+            <div class="introduction__buttons">
+              <a href="#" class="introduction__join-btn">У меня проект</a>
+              <a href="#" class="introduction__watch-btn">
+                <div class="introduction__watch-btn-icon"></div>
+                <span class="introduction__watch-btn-text">Посмотреть видеоролик о студии</span>
+              </a>
+            </div>
+
+            <div class="introduction__quote">
+              <span class="introduction__quote-author">Токуджин Йошиока</span>
+              <p class="introduction__quote-text">— «Мы не знаем, что такое дизайн, но мы будем делать это в любом случае»</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="about">
+        <div class="about__head">
+          <h2 class="about__title">Знакомься с нашей командой</h2>
+          <span class="about__year">2022</span>
+        </div>
+        <div class="about__person">
+          <img src="./assets/images/person1.png" alt="" class="about__person-image" />
+          <div class="about__person-name">
+            <span>Гаджи Амаев</span>
+          </div>
+          <div class="about__person-position">
+            <span>Директор</span>
+          </div>
+          <div class="about__person-tags-wrap">
+            <div class="about__person-tags">
+              <div class="about__person-tag about__person-tag--blue">#business</div>
+              <div class="about__person-tag about__person-tag--black">#IT</div>
+              <div class="about__person-tag about__person-tag--blue">#case</div>
+              <div class="about__person-tag about__person-tag--lightblue">#Principles</div>
+              <div class="about__person-tag about__person-tag--red">#web</div>
+              <div class="about__person-tag about__person-tag--blue">#case</div>
+              <div class="about__person-tag about__person-tag--blue">#business</div>
+              <div class="about__person-tag about__person-tag--black">#IT</div>
+              <div class="about__person-tag about__person-tag--blue">#case</div>
+              <div class="about__person-tag about__person-tag--lightblue">#Principles</div>
+              <div class="about__person-tag about__person-tag--red">#web</div>
+              <div class="about__person-tag about__person-tag--blue">#case</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__person about__person--reverse">
+          <img src="./assets/images/person2.png" alt="" class="about__person-image" />
+          <div class="about__person-name">
+            <span>Дмитрий Хватов</span>
+          </div>
+          <div class="about__person-position">
+            <span>Дизайнер, программист</span>
+          </div>
+          <div class="about__person-tags-wrap">
+            <div class="about__person-tags">
+              <div class="about__person-tag about__person-tag--green">#layout</div>
+              <div class="about__person-tag about__person-tag--black">#IT</div>
+              <div class="about__person-tag about__person-tag--blue">#web</div>
+              <div class="about__person-tag about__person-tag--blue">#case</div>
+              <div class="about__person-tag about__person-tag--red">#business</div>
+              <div class="about__person-tag about__person-tag--lightblue">#Principles</div>
+              <div class="about__person-tag about__person-tag--green">#layout</div>
+              <div class="about__person-tag about__person-tag--black">#IT</div>
+              <div class="about__person-tag about__person-tag--blue">#web</div>
+              <div class="about__person-tag about__person-tag--blue">#case</div>
+              <div class="about__person-tag about__person-tag--red">#business</div>
+              <div class="about__person-tag about__person-tag--lightblue">#Principles</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__person">
+          <img src="./assets/images/person3.png" alt="" class="about__person-image" />
+          <div class="about__person-name">
+            <span>Айнузар Амаев</span>
+          </div>
+          <div class="about__person-position">
+            <span>Арт-директор</span>
+          </div>
+          <div class="about__person-tags-wrap">
+            <div class="about__person-tags">
+              <div class="about__person-tag about__person-tag--green">#layout</div>
+              <div class="about__person-tag about__person-tag--black">#IT</div>
+              <div class="about__person-tag about__person-tag--blue">#web</div>
+              <div class="about__person-tag about__person-tag--green">#case</div>
+              <div class="about__person-tag about__person-tag--red">#business</div>
+              <div class="about__person-tag about__person-tag--lightblue">#Principles</div>
+              <div class="about__person-tag about__person-tag--green">#layout</div>
+              <div class="about__person-tag about__person-tag--black">#IT</div>
+              <div class="about__person-tag about__person-tag--blue">#web</div>
+              <div class="about__person-tag about__person-tag--green">#case</div>
+              <div class="about__person-tag about__person-tag--red">#business</div>
+              <div class="about__person-tag about__person-tag--lightblue">#Principles</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="feedback__head">
+          <h2 class="feedback__title feedback__title--desk">Заполни форму и мы с вами свяжемся</h2>
+          <h2 class="feedback__title feedback__title--mobile">Форма для связи с нами</h2>
+          <img src="./assets/icons/arrow-white.svg" alt="" class="feedback__head-arrow" />
+        </div>
+        <div class="feedback__content">
+          <div class="feedback__form">
+            <label for="feedback-name" class="feedback__label feedback__label--required">
+              Ваше имя
+              <input type="text" name="name" id="feedback-name" class="feedback__input" />
+              <div class="feedback__line"></div>
+            </label>
+            <label for="feedback-email" class="feedback__label feedback__label--required">
+              Ваша почта
+              <input type="email" name="feedback-email" id="feedback-email" class="feedback__input" />
+              <div class="feedback__line"></div>
+            </label>
+            <label for="feedback-email" class="feedback__label feedback__label--required">
+              Номер телефона
+              <input type="text" name="feedback-phone" id="feedback-phone" class="feedback__input" />
+              <div class="feedback__line"></div>
+            </label>
+            <label for="feedback-link" class="feedback__label">
+              Ссылка на мессенджер
+              <input type="text" name="feedback-link" id="feedback-link" class="feedback__input" />
+              <div class="feedback__line"></div>
+            </label>
+
+            <label for="feedback-link" class="feedback__label feedback__label--mobile feedback__label--required">
+              Кратко о проекте
+              <textarea name="feedback-about" id="" rows="5" class="feedback__textarea"></textarea>
+              <div class="feedback__line"></div>
+            </label>
+            <div class="feedback__mobile-tip">
+              <p>
+                *Нажимая на кнопку «Готово», вы даёте согласие на обработку
+                персональных данных и соглашаетесь с <a href="/" class="feedback__politics">политикой конфинденциальности</a>
+              </p>
+            </div>
+            <div class="feedback__button">Готово</div>
+          </div>
+          <div class="feedback__about">
+            <h3 class="feedback__about-title">Кратко о проекте</h3>
+            <label for="feedback-link" class="feedback__label">
+              <textarea name="feedback-about" id="" rows="5" class="feedback__textarea"></textarea>
+              <div class="feedback__line"></div>
+            </label>
+            <div class="feedback__about-tip">
+              <p>
+                *Нажимая на кнопку «Готово», вы даёте согласие на обработку <br />
+                персональных данных и соглашаетесь с <a href="/" class="feedback__politics">политикой конфинденциальности</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="links">
+        <div class="links__head">
+          <h2 class="links__title">Вы можете найти нас здесь</h2>
+          <img src="./assets/icons/arrow-black.svg" alt="" class="links__head-arrow" />
+        </div>
+        <div class="links__content">
+          <a href="#" class="links__item links__item--vk">
+            <img src="./assets/images/links/vk.svg" alt="" />
+          </a>
+          <a href="#" class="links__item links__item--dribbble">
+            <img src="./assets/images/links/dribbble.svg" alt="" />
+          </a>
+          <a href="#" class="links__item links__item--telegram">
+            <img src="./assets/images/links/telegram.svg" alt="" />
+          </a>
+          <a href="#" class="links__item links__item--instagram">
+            <img src="./assets/images/links/instagram.svg" alt="" />
+          </a>
+          <a href="#" class="links__item links__item--behance">
+            <img src="./assets/images/links/behance.svg" alt="" />
+          </a>
+          <a href="#" class="links__item links__item--twitter">
+            <img src="./assets/images/links/twitter.svg" alt="" />
+          </a>
+          <a href="#" class="links__item links__item--facebook">
+            <img src="./assets/images/links/facebook.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="links__star">
+          <img src="./assets/images/links/star.svg" alt="" />
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <div class="footer__content">
+            <div class="footer__col">
+              <h4 class="footer__title">
+                Мы были р<i>ад</i>ы <br />
+                по<i>луч</i>ить от вас <i>зая</i>вку.
+              </h4>
+              <a href="#" class="footer__email">ainuzar@yandex.ru</a>
+            </div>
+            <div class="footer__links">
+              <div class="footer__col">
+                <a href="#" class="link link--active footer__link">Студия</a>
+                <a href="#" class="link footer__link">Задизайнено</a>
+                <a href="#" class="link footer__link">Связаться</a>
+              </div>
+              <div class="footer__col">
+                <a href="#" class="link footer__link">Начало</a>
+                <a href="#" class="link footer__link">Соц. сети</a>
+                <a href="#" class="link footer__link">Форма</a>
+                <a href="#" class="link footer__link">Команда</a>
+              </div>
+            </div>
+            <div class="footer__col footer__col--last">
+              <span class="footer__address-title">Наш адрес</span>
+              <span class="footer__address">
+                Россия, г. Смоленск, 214000, <br />
+                ул. Октябрьской революции, д. 9
+              </span>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <span class="footer__bottom-title">©2022 ООО «Азар Студио»</span>
+            <div class="footer__bottom-title footer__bottom-title--mobile"><span>©2022</span> <span>ООО «Азар Студио»</span></div>
+            <a href="#" class="footer__bottom-link">Политика конфиденциальности</a>
+            <a href="#" class="footer__bottom-link">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
